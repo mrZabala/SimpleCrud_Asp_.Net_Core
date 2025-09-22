@@ -1,21 +1,24 @@
 using System.Diagnostics;
+using crud_Aplication.Data;
 using crud_Aplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace crud_Aplication.Controllers
 {
-    public class HomeController : Controller
+    public class InitController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _context;
+
+        public InitController(AppDbContext context)
         {
-            _logger = logger;
+            _context = context; //Llamamos al contexto
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _context.Contacts.ToListAsync());
         }
 
         public IActionResult Privacy()
