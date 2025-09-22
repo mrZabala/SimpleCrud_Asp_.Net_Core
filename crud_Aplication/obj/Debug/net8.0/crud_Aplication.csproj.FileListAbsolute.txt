@@ -137,3 +137,4 @@ C:\Users\MrZabala\Documents\StudiesDev\Projects\Backend_ASP .NET\crud_Aplication
 C:\Users\MrZabala\Documents\StudiesDev\Projects\Backend_ASP .NET\crud_Aplication\crud_Aplication\obj\Debug\net8.0\crud_Aplication.pdb
 C:\Users\MrZabala\Documents\StudiesDev\Projects\Backend_ASP .NET\crud_Aplication\crud_Aplication\obj\Debug\net8.0\crud_Aplication.genruntimeconfig.cache
 C:\Users\MrZabala\Documents\StudiesDev\Projects\Backend_ASP .NET\crud_Aplication\crud_Aplication\obj\Debug\net8.0\ref\crud_Aplication.dll
+C:\Users\MrZabala\Documents\StudiesDev\Projects\Backend_ASP .NET\crud_Aplication\crud_Aplication\obj\Debug\net8.0\crud_Aplication.sourcelink.json
